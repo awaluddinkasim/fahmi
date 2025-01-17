@@ -9,7 +9,7 @@ return [
         ],
         [
             'title' => 'Manajemen Kursus',
-            'icon' => 'home',
+            'icon' => 'book',
             'submenu' => [
                 [
                     'title' => 'Semua Kursus',
@@ -24,7 +24,7 @@ return [
         ],
         [
             'title' => 'Manajemen User',
-            'icon' => 'home',
+            'icon' => 'users',
             'submenu' => [
                 [
                     'title' => 'Admin',
@@ -36,7 +36,7 @@ return [
         ],
         [
             'title' => 'Laporan',
-            'icon' => 'home',
+            'icon' => 'file',
         ]
     ],
     'user' => [
@@ -47,7 +47,7 @@ return [
         ],
         [
             'title' => 'Katalog Kursus',
-            'icon' => 'home',
+            'icon' => 'layers',
             'submenu' => [
                 [
                     'title' => 'Semua Kursus',
@@ -62,13 +62,11 @@ return [
         ],
         [
             'title' => 'Kursus Saya',
-            'route' => 'dashboard',
-            'icon' => 'home',
+            'icon' => 'book',
         ],
         [
             'title' => 'Progress',
-            'route' => 'dashboard',
-            'icon' => 'home',
+            'icon' => 'loader',
         ],
     ],
 ];

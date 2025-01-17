@@ -10,6 +10,9 @@ class DashboardController extends Controller
 {
     public function index(): View
     {
-        return view('user.dashboard');
+        return view('user.dashboard', [
+            'myCourses' => 0,
+            'totalCourses' => 0,
+        ]);
     }
 }
